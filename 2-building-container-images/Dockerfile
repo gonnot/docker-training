@@ -5,19 +5,14 @@ EXPOSE 80 443
 
 CMD ["nginx", "-g", "daemon off;"]
 
-
-
-
-
-# This is your Editor pane. Write the Dockerfile here and 
-# use the command line to execute commands
-# 
+# -- Sample for node.js
+#
 # FROM node:7-alpine
 # 
 # RUN mkdir /src/app
 # WORKDIR /src/app
 # 
-# Copy only package json to use deocker cache
+# -- Copy only package json to use deocker cache
 # 
 # COPY package.json /src/app/package.json
 # 

@@ -14,7 +14,7 @@ docker build -t webserver-image:v1 .
 docker run -d -p 80:80 --name web1 --rm webserver-image:v1
 ```
 
-* -d : run as a daemin
+* -d : run as a daemon
 * -p : port mapping
 * --name : (optional) name the created container
 * --rm : do not "store" the conatainer
