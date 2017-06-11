@@ -4,7 +4,9 @@ Create a simple nginx server with a static site (index.html).
 
 # Create image 
 
+```
 docker build -t webserver-image:v1 .
+```
 
 # Run image
 
@@ -23,7 +25,8 @@ curl -i http://localhost
 
 # Cleanup
 
+```
 docker stop web1
 
 docker rmi webserver-image:v1
-
+```
